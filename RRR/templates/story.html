@@ -1,0 +1,54 @@
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Achieving Goals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="navbar navbar-light bg-light navbar-expand-md">
+	<a class="navbar-brand" href="">RRR</a>
+	<button class="nabar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+		<span class="navbar-toggler-icon"></span>
+
+	</button>
+	<div class="navbar-collapse collapse" id="menu">
+		<ul class="navbar-nav ms-auto">
+			<li class="nav-item">
+				<a href="{% url 'test' %}" class="nav-link">Story Line Of Movie</a>
+			</li>
+
+			<li class="nav-item">
+			<a href="{% url 'Arc' %}" class="nav-link">Characters Arc</a>
+	        </li>
+	    </ul>
+	</div>
+</div>
+<div>
+	<center>
+	<img src="{% static 'images/story of rrr.jpg'%}" width="1000" height="500">
+	</center>
+	<h3 class="text-primary text-decoration-underline"> How They Achieved Their Goals :-</h3>
+	<div class="p-2">
+		<div class="p-1">
+			<h4 class="text-warning">Bheem journeys to Delhi to rescue a Gond girl enslaved by the British governor and his wife, a couple of sadists. Ram has orders to identify and capture Bheem by going
+		undercover with revolutionaries. Instead, the men unwittingly make fast friends when they save a child stranded on a river that’s on fire. (As one does.)
+		But their missions get inevitably entangled, and Rajamouli (who collaborated on the story with his screenwriter father, Vijayendra Prasad),
+		stirs in an aw-shucks courtship between Bheem and the governor’s not-racist niece (Olivia Morris).
+		 the two main characters make dramatic and memorable first appearances but in strategically different ways. The audience is first introduced to Ramarju as a British solider
+		who will literally do anything he can arrest a man who destroyed a picture of King George. There is perhaps no better example of the word literally than in this scene, where
+		he explodes over a fence and barrels his way through hundreds of men, a burning lookout post and a mountain to arrest his man. Without speaking, the audience immediately understands
+		the passion this character has towards his cause. Later in the film when it is revealed that he is a revolutionary, his lifelong mission to bring freedom to his people is encapsulated
+		in that opening scene. We know that Ramarju is not only dedicated to the cause, but he is also life breathing embodiment of that cause. His introduction lets us know just how important
+		this cause is to him and his people and symbolizes the movie’s theme from the outset.
+	</h4>
+         </div>
+    </div>
+
+</div>
+
+ </body>
+</html>
